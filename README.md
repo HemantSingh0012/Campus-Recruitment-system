@@ -34,7 +34,6 @@ And then open http://localhost:3000 to view it in the browser.
 | npm run client | Runs the client-side code.        |
 | npm start      | Runs the app in development mode. |
 
-## Credits
 
 Campus Recruitment System is built and maintained by [Safdar Jamal](https://safdarjamal.github.io).
 
