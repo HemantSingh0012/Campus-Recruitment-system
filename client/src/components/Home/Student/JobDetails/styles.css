@@ -1,0 +1,90 @@
+.job-details-card {
+  border: none;
+}
+
+.job-details-card .card-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.company-info {
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+
+.company-name {
+  font-weight: 500;
+}
+
+.requirements-list,
+.benefits-list {
+  padding-left: 1.5rem;
+  margin-bottom: 0;
+}
+
+.requirements-list li,
+.benefits-list li {
+  margin-bottom: 0.5rem;
+  color: #6c757d;
+}
+
+.job-summary {
+  background-color: #f8f9fa;
+  border: none;
+}
+
+.summary-item {
+  padding: 0.5rem 0;
+}
+
+.summary-item strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #212529;
+}
+
+.summary-item .text-muted {
+  font-size: 0.95rem;
+}
+
+.summary-item svg {
+  font-size: 1.25rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+  .job-details-card .card-header {
+    text-align: center;
+  }
+
+  .company-info {
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .job-summary {
+    margin-top: 2rem;
+  }
+}
+
+/* Hover effects */
+.btn-primary:not(:disabled):hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease;
+}
+
+/* Animation for alerts */
+.alert {
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+} 
